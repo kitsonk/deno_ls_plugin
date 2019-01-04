@@ -1,0 +1,22 @@
+{
+  "name": "deno_ls_plugin",
+  "version": "0.1.0",
+  "description": "A language service plugin for Deno",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": "https://github.com/kitsonk/deno_ls_plugin.git",
+  "author": "Kitson P. Kelly <me@kitsonkelly.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2"
+  }
+}
