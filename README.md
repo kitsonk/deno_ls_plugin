@@ -1,5 +1,7 @@
 # deno_ls_plugin
 
+[![Build Status](https://travis-ci.com/kitsonk/deno_ls_plugin.svg?branch=master)](https://travis-ci.com/kitsonk/deno_ls_plugin)
+
 This is a TypeScript plugin which will allow TypeScript outside of Deno to
 resolve modules in a similar way to the way they are resolved inside of Deno.
 
