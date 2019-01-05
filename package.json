@@ -1,6 +1,6 @@
 {
   "name": "deno_ls_plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A language service plugin for Deno",
   "main": "index.js",
   "files": [
@@ -13,7 +13,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -p .",
-    "prepublish": "tsc -p .",
+    "prepare": "tsc -p .",
     "pretest": "tsc -p .",
     "test": "node test.js"
   },
