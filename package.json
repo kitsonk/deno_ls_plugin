@@ -13,6 +13,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -p .",
+    "pretest": "tsc -p .",
     "test": "node test.js"
   },
   "devDependencies": {
